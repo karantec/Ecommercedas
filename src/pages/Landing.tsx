@@ -32,7 +32,7 @@ const Landing = () => {
             <h3 className="text-3xl dark:text-whiteSecondary text-blackPrimary font-bold mb-7 max-sm:text-2xl">
               Traffic Overview
             </h3>
-            <LineGraph />
+            
           </div>
           <div className="sm:w-[66%] mt-10 max-sm:w-[80%]">
             <h3 className="text-3xl dark:text-whiteSecondary text-blackPrimary font-bold mb-7 max-sm:text-2xl">
