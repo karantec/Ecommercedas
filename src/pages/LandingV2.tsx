@@ -6,9 +6,6 @@ import {
 } from "react-icons/hi2";
 import { HiArrowSmallUp } from "react-icons/hi2";
 import { HiShoppingCart } from "react-icons/hi2";
-import ChartItem from "../components/chart/ChartItem";
-
-import RechartsBarChart from "../components/chart/RechartsBarChart";
 
 const Landingv2 = () => {
   return (
@@ -80,9 +77,7 @@ const Landingv2 = () => {
         </div>
         <div className="w-[95%] px-5 mt-10 max-md:w-[90%] max-[400px]:w-[95%] dark:bg-black bg-whiteSecondary">
 
-        <ChartItem title="Revenue VS Profit">
-          <RechartsBarChart />
-        </ChartItem>
+       
 
         <TotalSavings isPositive={true} percentage="25%" />
         </div>
