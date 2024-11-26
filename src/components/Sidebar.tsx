@@ -1,12 +1,3 @@
-// *********************
-// Role of the component: Sidebar component that displays the sidebar navigation
-// Name of the component: Sidebar.tsx
-// Developer: Aleksandar Kuzmanovic
-// Version: 1.0
-// Component call: <Sidebar />
-// Input parameters: roles: no input parameters
-// Output: Sidebar component that displays the sidebar navigation
-// *********************
 
 import { HiLogin, HiOutlineHome, HiUserGroup } from "react-icons/hi";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
@@ -14,7 +5,7 @@ import { HiOutlineTag } from "react-icons/hi";
 import { HiOutlineTruck } from "react-icons/hi";
 import { HiOutlineStar } from "react-icons/hi";
 import { HiOutlineInformationCircle } from "react-icons/hi";
-import { HiOutlineChat } from "react-icons/hi";
+
 import { useAppDispatch, useAppSelector } from "../hooks";
 import { HiOutlineX } from "react-icons/hi";
 import { setSidebar } from "../features/dashboard/dashboardSlice";
