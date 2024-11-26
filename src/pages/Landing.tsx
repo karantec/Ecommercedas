@@ -7,7 +7,7 @@ import {
   Stats,
   Welcome,
 } from "../components";
-import { BarChart, LineGraph, PieChart } from "../components/chart";
+import { BarChart, PieChart } from "../components/chart";
 
 const Landing = () => {
   return (
